@@ -21,7 +21,7 @@ void input(int a[],int n)
 	int i;
 	for(i=1;i<=n;i++)
 	{
-		scanf("%d\n",&a[i]);
+		scanf("%d",&a[i]);
 	}
 }
 void output(int a[],int n)
