@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title></title>
+	 <script>
+		function time()
+		{
+		 var rval;
+		 var rval=confirm("Do you want to see the Time");
+			if(rval==true)
+			{
+				var mytime=new Date();
+				var timeall=mytime.getHours()+":"+mytime.getMinutes()+":"+mytime.getSeconds();
+				document.write("<h1>"+timeall+"</h1>");
+			}
+		}
+	 </script>
+	</head>
+<body>
+	<form>
+		<input type="button" value="show me" onclick="time();">
+	</form>
+</body>
+</html>
